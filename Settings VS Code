@@ -1,0 +1,54 @@
+{
+    "[python]": {
+        "editor.formatOnType": true, // Форматирование кода при вводе для языка Python
+        "editor.defaultFormatter": "ms-python.autopep8" // Использование автоформаттера autopep8 для Python
+    },
+    "workbench.iconTheme": "material-icon-theme", // Выбор темы иконок Material
+    "workbench.colorTheme": "Visual Studio Dark", // Выбор темы оформления цветовой схемы Bluloco Dark
+    "editor.formatOnSave": true, // Форматирование кода при сохранении файла
+    "workbench.layoutControl.enabled": false, // Отключение разметки для области видимости
+    "code-runner.clearPreviousOutput": true, // Очистка предыдущего вывода перед выполнением кода в Code Runner
+    "code-runner.showExecutionMessage": false, // Отключение отображения сообщений о выполнении в Code Runner
+    "code-runner.saveFileBeforeRun": true, // Автоматическое сохранение файла перед выполнением кода в Code Runner
+    "editor.accessibilityPageSize": 12, // Размер страницы доступности редактора
+    "editor.minimap.enabled": false, // Отключение мини-карты
+    "editor.lineHeight": 24, // Высота строки
+    "editor.hover.delay": 1500, // Задержка при отображении всплывающей подсказки
+    "editor.glyphMargin": false, // Отключение глифов в гуттере (маргине)
+    "editor.fontSize": 22, // Размер шрифта редактора
+    "editor.letterSpacing": 0.3, // Межбуквенное расстояние
+    "editor.mouseWheelZoom": true, // Включение масштабирования колесиком мыши
+    "workbench.colorCustomizations": {
+        "statusBar.border": "#206486", // Изменение цвета границы строки состояния
+        "panel.border": "#59ace2", // Изменение цвета границы панели
+    },
+    "editor.tokenColorCustomizations": {
+        "variables": "#DCDEDF", // Изменение цвета переменных
+        "textMateRules": [
+            {
+                "scope": [
+                    // Области, для которых задается цвет
+                    "source",
+                    "variable",
+                    "constant",
+                    "variable.other.constant",
+                    "punctuation.definition.constant",
+                    "constant.other.symbol",
+                    "constant.language.symbol",
+                    "support.constant",
+                    "support.variable.magic.python",
+                    "variable.other.enummember"
+                ],
+                "settings": {
+                    "foreground": "#DCDEDF" // Задание цвета текста
+                }
+            }
+        ]
+    },
+    "scm.inputFontSize": 14, // Размер шрифта для ввода в системе контроля версий
+    "terminal.integrated.fontSize": 18, // Размер шрифта в интегрированном терминале
+    "editor.scrollbar.horizontalScrollbarSize": 14, // Размер горизонтальной полосы прокрутки
+    "editor.insertSpaces": false, // Вставка пробелов вместо табуляции
+    "files.trimFinalNewlines": true, // Удаление пустых строк в конце файла
+    "editor.wordWrap": "on" // Включение переноса строк
+}
