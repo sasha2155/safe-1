@@ -1,11 +1,10 @@
 {
     "[python]": {
-        "editor.formatOnType": true, // Форматирование кода при вводе для языка Python
-        "editor.defaultFormatter": "ms-python.autopep8" // Использование автоформаттера autopep8 для Python
+        "editor.formatOnType": true,
+        "editor.defaultFormatter": "aaron-bond.better-comments", // Форматирование кода при вводе для языка Python
     },
     "workbench.iconTheme": "material-icon-theme", // Выбор темы иконок Material
-    "workbench.colorTheme": "Visual Studio Dark", // Выбор темы оформления цветовой схемы Bluloco Dark
-    "editor.formatOnSave": true, // Форматирование кода при сохранении файла
+    "workbench.colorTheme": "Visual Studio Dark", // Форматирование кода при сохранении файла
     "workbench.layoutControl.enabled": false, // Отключение разметки для области видимости
     "code-runner.clearPreviousOutput": true, // Очистка предыдущего вывода перед выполнением кода в Code Runner
     "code-runner.showExecutionMessage": false, // Отключение отображения сообщений о выполнении в Code Runner
@@ -50,5 +49,7 @@
     "editor.scrollbar.horizontalScrollbarSize": 14, // Размер горизонтальной полосы прокрутки
     "editor.insertSpaces": false, // Вставка пробелов вместо табуляции
     "files.trimFinalNewlines": true, // Удаление пустых строк в конце файла
-    "editor.wordWrap": "on" // Включение переноса строк
+    "editor.wordWrap": "on",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-python.autopep8" // Включение переноса строк
 }
