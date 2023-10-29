@@ -1,7 +1,7 @@
 {
     "[python]": {
         "editor.formatOnType": true,
-        "editor.defaultFormatter": "aaron-bond.better-comments", // Форматирование кода при вводе для языка Python
+        "editor.defaultFormatter": "ms-python.autopep8", // Форматирование кода при вводе для языка Python
     },
     "workbench.iconTheme": "material-icon-theme", // Выбор темы иконок Material
     "workbench.colorTheme": "Visual Studio Dark", // Форматирование кода при сохранении файла
