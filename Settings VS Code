@@ -13,7 +13,6 @@
     "editor.minimap.enabled": false, // Отключение мини-карты
     "editor.lineHeight": 24, // Высота строки
     "editor.hover.delay": 1500, // Задержка при отображении всплывающей подсказки
-    "editor.glyphMargin": false, // Отключение глифов в гуттере (маргине)
     "editor.fontSize": 22, // Размер шрифта редактора
     "editor.letterSpacing": 0.3, // Межбуквенное расстояние
     "editor.mouseWheelZoom": true, // Включение масштабирования колесиком мыши
